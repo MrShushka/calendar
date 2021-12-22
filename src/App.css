@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width:100vw;
+  
+  background-image: url(images/image.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* overflow-y: hidden; */
+}
+
+@media (max-width:1000px)
+  {
+    .App{
+      background-size: 1000px ;
+    }
+  }
+
+
+
+.container{
+  height: 100%;
+  width: 100%;
+  flex-flow: row;
+  display: flex;
+}
+ 
+.left-side {
+  background: grey ;
+  opacity: 0.5;
+  height: 100%;
+  width: 50%;
+}
+
+.right-side {
+  background:  rgb(83, 82, 82);
+  
+  height: 100%;
+  width: 50%;
+  min-width: 500px;
+  align-items: center;
+  display: flex;
+}
+
+.container .image img{
+  height: 100%;
+  width: 60%;
+
+}
